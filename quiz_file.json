@@ -1,0 +1,353 @@
+[
+  {
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "What city is the capital of Australia?",
+    "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correct_answer": 2
+  },
+  {
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the chemical symbol for water?",
+    "answers": ["H2O", "CO2", "NaCl", "O2"],
+    "correct_answer": 0
+  },
+  {
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Who led the French Revolution?",
+    "answers": ["Napoleon Bonaparte", "Maximilien Robespierre", "Marie Antoinette", "Voltaire"],
+    "correct_answer": 1
+  },
+{
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Who wrote the Harry Potter series?",
+    "answers": ["J.K. Rowling", "C.S. Lewis", "Stephen King", "J.R.R. Tolkien"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Technology",
+    "difficulty": "medium",
+    "question": "What is the full name of the internet?",
+    "answers": ["Interconnected Network", "Global Information Network", "World Wide Web", "Electronic Communications Network"],
+    "correct_answer": 0
+  },
+  {
+    "category": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which planet is known as the 'red planet'?",
+    "answers": ["Mars", "Venus", "Mercury", "Jupiter"],
+    "correct_answer": 0
+  },
+   {
+    "category": "Music",
+    "difficulty": "easy",
+    "question": "Which band won the most Grammy Awards of all time?",
+    "answers": ["U2", "The Beatles", "Michael Jackson", "Beyoncé"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Art",
+    "difficulty": "medium",
+    "question": "Who painted the Mona Lisa?",
+    "answers": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Sandro Botticelli"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Sports",
+    "difficulty": "hard",
+    "question": "Who holds the record for most career home runs in Major League Baseball?",
+    "answers": ["Barry Bonds", "Babe Ruth", "Hank Aaron", "Ken Griffey Jr."],
+    "correct_answer": 0
+  },
+  {
+    "category": "Animals",
+    "difficulty": "easy",
+    "question": "What is the largest mammal on Earth?",
+    "answers": ["Blue Whale", "African Elephant", "Giraffe", "Hippopotamus"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "What city is the capital of Australia?",
+    "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correct_answer": 2
+  },
+  {
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the chemical symbol for water?",
+    "answers": ["H2O", "CO2", "NaCl", "O2"],
+    "correct_answer": 0
+  },
+  {
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Who led the French Revolution?",
+    "answers": ["Napoleon Bonaparte", "Maximilien Robespierre", "Marie Antoinette", "Voltaire"],
+    "correct_answer": 1
+  },
+  {
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Who wrote the Harry Potter series?",
+    "answers": ["J.K. Rowling", "C.S. Lewis", "Stephen King", "J.R.R. Tolkien"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Technology",
+    "difficulty": "medium",
+    "question": "What is the full name of the internet?",
+    "answers": ["Interconnected Network", "Global Information Network", "World Wide Web", "Electronic Communications Network"],
+    "correct_answer": 0
+  },
+  {
+    "category": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which planet is known as the 'red planet'?",
+    "answers": ["Mars", "Venus", "Mercury", "Jupiter"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Music",
+    "difficulty": "easy",
+    "question": "Which band won the most Grammy Awards of all time?",
+    "answers": ["U2", "The Beatles", "Michael Jackson", "Beyoncé"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Art",
+    "difficulty": "medium",
+    "question": "Who painted the Mona Lisa?",
+    "answers": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Sandro Botticelli"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Sports",
+    "difficulty": "hard",
+    "question": "Who holds the record for most career home runs in Major League Baseball?",
+    "answers": ["Barry Bonds", "Babe Ruth", "Hank Aaron", "Ken Griffey Jr."],
+    "correct_answer": 0
+  },
+  {
+    "category": "Animals",
+    "difficulty": "easy",
+    "question": "What is the largest mammal on Earth?",
+    "answers": ["Blue Whale", "African Elephant", "Giraffe", "Hippopotamus"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "What city is the capital of Australia?",
+    "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correct_answer": 2
+  },
+  {
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the chemical symbol for water?",
+    "answers": ["H2O", "CO2", "NaCl", "O2"],
+    "correct_answer": 0
+  },
+  {
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Who led the French Revolution?",
+    "answers": ["Napoleon Bonaparte", "Maximilien Robespierre", "Marie Antoinette", "Voltaire"],
+    "correct_answer": 1
+  },
+  {
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Who wrote the Harry Potter series?",
+    "answers": ["J.K. Rowling", "C.S. Lewis", "Stephen King", "J.R.R. Tolkien"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Technology",
+    "difficulty": "medium",
+    "question": "What is the full name of the internet?",
+    "answers": ["Interconnected Network", "Global Information Network", "World Wide Web", "Electronic Communications Network"],
+    "correct_answer": 0
+  },
+  {
+    "category": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which planet is known as the 'red planet'?",
+    "answers": ["Mars", "Venus", "Mercury", "Jupiter"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Music",
+    "difficulty": "easy",
+    "question": "Which band won the most Grammy Awards of all time?",
+    "answers": ["U2", "The Beatles", "Michael Jackson", "Beyoncé"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Art",
+    "difficulty": "medium",
+    "question": "Who painted the Mona Lisa?",
+    "answers": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Sandro Botticelli"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Sports",
+    "difficulty": "hard",
+    "question": "Who holds the record for most career home runs in Major League Baseball?",
+    "answers": ["Barry Bonds", "Babe Ruth", "Hank Aaron", "Ken Griffey Jr."],
+    "correct_answer": 0
+  },
+  {
+    "category": "Animals",
+    "difficulty": "easy",
+    "question": "What is the largest mammal on Earth?",
+    "answers": ["Blue Whale", "African Elephant", "Giraffe", "Hippopotamus"],
+    "correct_answer": 0
+  },
+{
+    "category": "Movies",
+    "difficulty": "easy",
+    "question": "What movie won the most Academy Awards for Best Picture?",
+    "answers": ["Ben-Hur", "Titanic", "The Lord of the Rings: The Return of the King", "The Godfather"],
+    "correct_answer": 2
+  },
+  {
+    "category": "Mathematics",
+    "difficulty": "medium",
+    "question": "What is the square root of 25?",
+    "answers": ["4", "5", "6", "10"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Mythology",
+    "difficulty": "hard",
+    "question": "Which Greek god ruled the underworld?",
+    "answers": ["Zeus", "Poseidon", "Hades", "Ares"],
+    "correct_answer": 2
+  },
+  {
+    "category": "Food & Drink",
+    "difficulty": "easy",
+    "question": "What is the main ingredient in guacamole?",
+    "answers": ["Avocado", "Mango", "Tomato", "Bell Pepper"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Politics",
+    "difficulty": "medium",
+    "question": "Who is the current Prime Minister of Canada?",
+    "answers": ["Justin Trudeau", "Jagmeet Singh", "Erin O'Toole", "Yves-François Blanchet"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Business",
+    "difficulty": "hard",
+    "question": "What is the name of the world's largest cryptocurrency by market capitalization?",
+    "answers": ["Bitcoin", "Ethereum", "Dogecoin", "Tether"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Which classic novel opens with the famous line, 'It was the best of times, it was the worst of times'?",
+    "answers": ["A Tale of Two Cities", "Pride and Prejudice", "Jane Eyre", "The Great Gatsby"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the process by which plants convert sunlight into energy?",
+    "answers": ["Photosynthesis", "Cellular Respiration", "Transpiration", "Nitrogen Fixation"],
+    "correct_answer": 0
+  },
+  {
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Who was the first president of the United States?",
+    "answers": ["George Washington", "John Adams", "Thomas Jefferson", "James Madison"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Geography",
+    "difficulty": "easy",
+    "question": "What is the largest continent on Earth?",
+    "answers": ["Asia", "Africa", "North America", "South America"],
+    "correct_answer": 0
+  },
+{
+    "category": "Music",
+    "difficulty": "hard",
+    "question": "Which band has won the most Grammy Awards for Best Rock Album?",
+    "answers": ["U2", "The Beatles", "Metallica", "Radiohead"],
+    "correct_answer": 2
+  },
+  {
+    "category": "Technology",
+    "difficulty": "medium",
+    "question": "What does the acronym AI stand for?",
+    "answers": ["Artificial Intelligence", "Advanced Information", "Automated Insights", "Algorithm Integration"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Food & Drink",
+    "difficulty": "easy",
+    "question": "What is the main ingredient in hummus?",
+    "answers": ["Chickpeas", "Lentils", "Garlic", "Tahini"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Geography",
+    "difficulty": "hard",
+    "question": "Which mountain range is the longest in the world?",
+    "answers": ["The Andes", "The Himalayas", "The Rockies", "The Appalachian Mountains"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Art",
+    "difficulty": "medium",
+    "question": "What is the style of painting characterized by bold colors and geometric shapes called?",
+    "answers": ["Realism", "Impressionism", "Cubism", "Expressionism"],
+    "correct_answer": 2
+  },
+  {
+    "category": "Literature",
+    "difficulty": "easy",
+    "question": "Who wrote the classic children's book 'Charlotte's Web'?",
+    "answers": ["E.B. White", "J.K. Rowling", "Roald Dahl", "C.S. Lewis"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "What is the closest star to Earth, besides the Sun?",
+    "answers": ["Proxima Centauri", "Sirius", "Alpha Centauri A", "Vega"],
+    "correct_answer": 0
+  },
+  {
+    "category": "History",
+    "difficulty": "medium",
+    "question": "On what date did World War II end in Europe?",
+    "answers": ["May 8, 1945", "June 6, 1944", "September 2, 1945", "December 7, 1941"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country has won the most gold medals at the Summer Olympics?",
+    "answers": ["The United States", "China", "Russia", "Great Britain"],
+    "correct_answer": 0
+  },
+  {
+    "category": "Mythology",
+    "difficulty": "hard",
+    "question": "Which Norse god is associated with thunder and lightning?",
+    "answers": ["Odin", "Thor", "Loki", "Freyja"],
+    "correct_answer": 1
+  }
+  
+]

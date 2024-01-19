@@ -1,0 +1,100 @@
+quiz_file: Path to the file containing quiz data.
+difficulty: Set quiz difficulty level (e.g., easy, medium, hard).
+number_of_questions: Choose the number of questions to ask.
+
+
+use clap::{App, Arg};
+
+fn main() {
+    let matches = App::new("Quiz Maker")
+        .version("0.1.0")
+        .author("Aswin")
+        .about("A fun and challenging quiz game")
+        .arg(
+            Arg::with_name("quiz_file")
+                .short("f")
+                .long("file")
+                .value_name("FILE")
+                .help("Path to the quiz data file")
+                .required(true),
+        )
+        .arg(
+            Arg::with_name("difficulty")
+                .short("d")
+                .long("difficulty")
+                .value_name("LEVEL")
+                .help("Set quiz difficulty level (easy, medium, hard)")
+                .default_value("medium"),
+        )
+        .arg(
+            Arg::with_name("number_of_questions")
+                .short("n")
+                .long("number")
+                .value_name("COUNT")
+                .help("Number of questions to ask")
+                .default_value("10"),
+        )
+        .get_matches();
+
+    // Access the parsed arguments
+    let quiz_file = matches.value_of("quiz_file").unwrap();
+    let difficulty = matches.value_of("difficulty").unwrap();
+    let number_of_questions: u32 = matches
+        .value_of("number_of_questions")
+        .unwrap()
+        .parse()
+        .unwrap();
+fn ask_question(question: &Question) -> bool {
+    println!("{}", textwrap::wrap(question.question, 80)); // Wrap and print question
+    for (index, answer) in question.answers.iter().enumerate() {
+        println!(" {}. {}", index + 1, textwrap::wrap(answer.clone(), 70)); // Format and print answers
+    }
+
+    let mut user_answer = String::new();
+    io::stdin()
+        .read_line(&mut user_answer)
+        .expect("Failed to read user input");
+
+    let user_answer_index: usize = match user_answer.trim().parse() {
+        Ok(num) => num - 1,
+        Err(_) => {
+            println!("Invalid answer format. Please enter a number.");
+            return false;
+        }
+    };
+
+    let is_correct = question.correct_answer == user_answer_index;
+    if is_correct {
+        println!("✅ Correct!");
+    } else {
+        println!("❌ Incorrect. The correct answer was: {}", question.answers[question.correct_answer]);
+        println!("Explanation: {}", textwrap::wrap(format!("[Optional Explanation]"), 60)); // Add optional explanation here
+    }
+    is_correct
+}
+
+fn conduct_quiz(questions: Vec<Question>) -> usize {
+    let mut score = 0;
+    for question in questions {
+        if ask_question(&question) {
+            score += 1;
+        }
+    }
+
+    let total_questions = questions.len();
+    println!("--- Quiz completed! ---");
+    println!("You scored {} out of {} questions.", score, total_questions);
+    if score == total_questions {
+        println!(" Excellent work! You answered everything correctly!");
+    } else if score >= total_questions * 2 / 3 {
+        println!("Great job! You achieved a high score.");
+    } else if score >= total_questions / 2 {
+        println!("Good effort! You answered more than half correctly.");
+    } else {
+        println!("Don't worry, keep practicing! You can improve.");
+    }
+    score
+}
+   
+
+
